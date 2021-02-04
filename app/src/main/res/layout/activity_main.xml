@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84B7C5"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/better_letter_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="@font/bungee_shade"
+        android:gravity="center_horizontal"
+        android:text="BetterLetter!"
+        android:textColor="#900"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/kaan_tek_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:fontFamily="@font/mountains_of_christmas"
+        android:text="by Kaan Tek"
+        android:textColor="#555"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/help_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/rounded_corners"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <Button
+        android:id="@+id/enhance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="213dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:width="150dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Enhancer!"
+        android:fontFamily="@font/caesar_dressing"
+        android:textColor="#999"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/dictionary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="153dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:width="175dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Dictionary!"
+        android:fontFamily="@font/caesar_dressing"
+        android:textColor="#999"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/checker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginBottom="277dp"
+        android:width="125dp"
+        android:background="@drawable/rounded_corners"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Checker!"
+        android:fontFamily="@font/caesar_dressing"
+        android:textColor="#999"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>

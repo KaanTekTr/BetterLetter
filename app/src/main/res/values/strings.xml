@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BetterLetter</string>
+
+    <string-array name="colors">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="fonts">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold|Italic</item>
+    </string-array>
+
+    <string-array name="fontTypes">
+        <item>default</item>
+        <item>aclonica</item>
+        <item>akronim</item>
+        <item>almendra</item>
+        <item>anton</item>
+        <item>bangers</item>
+        <item>bungee</item>
+        <item>caesar</item>
+        <item>delius</item>
+        <item>fasterone</item>
+        <item>mountains</item>
+        <item>schoolbell</item>
+        <item>snowburst</item>
+        <item>uni</item>
+    </string-array>
+</resources>
